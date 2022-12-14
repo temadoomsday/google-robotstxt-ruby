@@ -27,6 +27,7 @@ Gemfile.lock
 
 .rvmrc
 
+.idea/*
 *.log
 Makefile
 *.o
