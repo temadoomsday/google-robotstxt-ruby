@@ -46,7 +46,7 @@ end
 
 # CWD = __dir__
 # LIBROBOTSTXT_DIR = File.join(CWD, 'robotstxt')
-LIBROBOTSTXT_DIR = File.join(__dir__, 'robotstxt')
+LIBROBOTSTXT_DIR = File.join(__dir__, './robotstxt')
 
 LIBDIR = RbConfig::CONFIG['libdir']
 INCLUDEDIR = RbConfig::CONFIG['includedir']
