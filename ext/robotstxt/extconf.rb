@@ -60,6 +60,8 @@ LIB_DIRS = [
   "#{LIBROBOTSTXT_DIR}/c-build"
 ]
 
+system('git submodule update --init --recursive')
+
 Dir.chdir(LIBROBOTSTXT_DIR) do
   Dir.mkdir('c-build') unless Dir.exist?('c-build')
   Dir.chdir('c-build') do
