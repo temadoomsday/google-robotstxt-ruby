@@ -3,7 +3,7 @@
 require 'mkmf'
 require 'timeout'
 
-$CXXFLAGS << " -std=c++14"
+$CXXFLAGS << " -std=c++11"
 
 def sys(cmd)
   puts " -- #{cmd}"
