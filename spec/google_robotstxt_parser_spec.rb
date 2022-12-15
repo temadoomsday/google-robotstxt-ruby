@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'robotstxt'
+require './robotstxt'
 
 RSpec.describe GoogleRobotstxtParser do
   include Robotstxt
