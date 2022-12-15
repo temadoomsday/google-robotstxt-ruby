@@ -65,7 +65,6 @@ system('git submodule update --init --recursive')
 Dir.chdir(LIBROBOTSTXT_DIR) do
   Dir.mkdir('c-build') unless Dir.exist?('c-build')
   Dir.chdir('c-build') do
-    system('ls ..')
     puts 'Building Robotstxt library before creating Makefile...'
     run_cmake(5 * 60, '.. -DBUILD_SHARED_LIBS=OFF')
     sys(MAKE)
